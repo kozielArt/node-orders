@@ -1,0 +1,26 @@
+{
+  "name": "express-es6",
+  "version": "1.0.0",
+  "description": "Requirement tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:prod": "node dist/server.js",
+    "build": "babel src --out-dir dist",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.13.4",
+    "mongodb": "^3.0.7",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.7.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.7.2",
+    "nodemon": "^1.9.1",
+    "should": "^13.2.1"
+  }
+}
